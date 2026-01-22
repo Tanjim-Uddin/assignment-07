@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "title": "Camera",
+    "description": "Digital DSLR camera with 24MP lens ",
+    "currentBidPrice": 3200,
+    "timeLeft": "4h 30m",
+    "bidsCount": 10,
+    "image": "https://i.ibb.co/fsdYJkd/Bid1-min.png"
+  },
+  {
+    "id": "2",
+    "title": "Car Accessories",
+    "description": "Premium car accessories kit ",
+    "currentBidPrice": 850,
+    "timeLeft": "2h 15m",
+    "bidsCount": 6,
+    "image": "https://i.ibb.co/YTYQc1ZP/car-accessories-618a41d5e8bf8.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Laptop",
+    "description": "Very Lightweight laptop with 16GB RAM",
+    "currentBidPrice": 950,
+    "timeLeft": "1d 5h",
+    "bidsCount": 18,
+    "image": "https://i.ibb.co/jkNdTFrn/Bid3-min.png"
+  },
+  {
+    "id": "4",
+    "title": "Hand Watch",
+    "description": "Classic wristwatch with leather strap ",
+    "currentBidPrice": 1500,
+    "timeLeft": "3h 50m",
+    "bidsCount": 9,
+    "image": "https://i.ibb.co/Ps9ysDw5/Bid4-min.png"
+  },
+  {
+    "id": "5",
+    "title": "Wooden Chair",
+    "description": "Handcrafted wooden chair with cushion",
+    "currentBidPrice": 1200,
+    "timeLeft": "6h 20m",
+    "bidsCount": 7,
+    "image": "https://i.ibb.co/bg3vms4T/Bid5-min.png"
+  },
+  {
+    "id": "6",
+    "title": "Cute Notebook",
+    "description": "Couple-themed notebook featuring .",
+    "currentBidPrice": 250,
+    "timeLeft": "8h 10m",
+    "bidsCount": 5,
+    "image": "https://i.ibb.co/Cs2Qtv6h/Bid6-min.png"
+  },
+  {
+    "id": "7",
+    "title": "Flower Bouquet",
+    "description": "Fresh bouquet of mixed seasonal flowers.",
+    "currentBidPrice": 400,
+    "timeLeft": "1h 45m",
+    "bidsCount": 12,
+    "image": "https://i.ibb.co/81S1Ddj/Bid7-min.png"
+  }
+]
