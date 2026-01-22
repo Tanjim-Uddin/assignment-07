@@ -12,7 +12,7 @@ function App() {
   const [addFavourite, setAddFavourite] = useState([]);
   const [addCurrenBid, setAddCurrentBid] = useState(0);
   const handleFavouriteItem=(item)=>{
-   toast.success(`${item.title} added to favourites!`);
+   toast.success(`${item.title} added to favourites!`,{ className: "text-xl font-semibold",});
     setAddFavourite([...addFavourite,item]);
     setAddCurrentBid(addCurrenBid + item.currentBidPrice);
     
