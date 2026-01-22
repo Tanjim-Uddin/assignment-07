@@ -4,9 +4,8 @@ import { IoIosHeart, IoIosHeartEmpty } from "react-icons/io";
 const Button = ({ handleFavouriteItem, handleremoveFavouriteItem, item, favourites }) => {
   const isFavourite = favourites.some(fav => fav.id === item.id);
   const [disabled, setDisabled] = useState(false);
-
-  // Reset disabled when item is removed from favourites
-  useEffect(() => {
+  
+useEffect(() => {
     if (!isFavourite) {
       setDisabled(false);
     }
