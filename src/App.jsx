@@ -19,10 +19,12 @@ function App() {
     // setLiked(!liked);
   }
   const handleremoveFavouriteItem=(item)=>{
+    
     const newFavouriteList=addFavourite.filter((favItem)=>favItem.id !== item.id);
     setAddFavourite(newFavouriteList);
     setAddCurrentBid(addCurrenBid - item.currentBidPrice);
     toast.error(`${item.title} removed from favourites!`,{ className: "text-xl font-semibold",});
+    
   }
 
   return (
