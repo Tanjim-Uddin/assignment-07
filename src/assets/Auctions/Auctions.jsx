@@ -14,13 +14,13 @@ const Auctions = ({ handleFavouriteItem, addFavourite,addCurrenBid,handleremoveF
     
     return (
         <div className="bg-gray-300 py-10 px-20">
-        <h2 className="text-3xl font-bold mb-6 text-blue-950">Active Auctions</h2>
-        <p className="text-lg mb-6 ">Discover and bid on extraordinary items</p>
+        <h2 className="text-2xl font-bold mb-6 text-blue-950">Active Auctions</h2>
+        <p className="text-[15px] mb-6 ">Discover and bid on extraordinary items</p>
 
         <div className="flex gap-4 items-start">
             <div className="w-[70%]  ">
 
-      <div className="px-10 py-20 bg-white rounded-2xl text-2xl ">
+      <div className="px-10 py-20 bg-white rounded-2xl text-xl ">
                   <div className=" border-2 border-black  py-5 px-3 rounded-tl-xl rounded-tr-xl  flex justify-between items-center">
                     <div><h1 className="font-medium ml-4">Items</h1></div>
 
@@ -38,7 +38,7 @@ const Auctions = ({ handleFavouriteItem, addFavourite,addCurrenBid,handleremoveF
             </div>
 
             <div className="w-[30%]    bg-white  rounded-2xl ">
-                     <div className="text-center py-4  rounded-tl-2xl  flex gap-2  items-center text-3xl justify-center">
+                     <div className="text-center py-4  rounded-tl-2xl  flex gap-2  items-center text-2xl justify-center">
                     <IoHeartOutline className=""/>
                     <h2 className="text-blue-900  font-medium">Favorite Items</h2>
                 </div>
@@ -49,9 +49,9 @@ const Auctions = ({ handleFavouriteItem, addFavourite,addCurrenBid,handleremoveF
                     (addFavourite.map((item)=>
                     (<div key={item.id}  className="flex justify-between items-start gap-2 w-9/10 mx-auto border-3 rounded-2xl px-5
                     py-4 my-4">
-                        <div className="flex gap-5"><div><img src={item.image} className="w-18 h-18 border-3 rounded-2xl" alt="" /></div>
+                        <div className="flex gap-5"><div><img src={item.image} className="w-12 h-12 border-3 rounded-2xl" alt="" /></div>
                         <div className="text-lg font-medium flex flex-col gap-0.5">
-                            <h1 className="text-xl">{item.description}</h1>
+                            <h1 className="text-lg">{item.description}</h1>
                             <p>${item.currentBidPrice}</p>
                             <p>{item.bidsCount}</p>
                         </div></div>

@@ -25,9 +25,9 @@ useEffect(() => {
       className={`p-2 ${disabled ? "cursor-not-allowed" : ""}`}
     >
       {isFavourite ? (
-        <IoIosHeart className="text-red-500 text-3xl" />
+        <IoIosHeart className="text-red-500 text-2xl" />
       ) : (
-        <IoIosHeartEmpty className="text-gray-500 text-3xl cursor-pointer" />
+        <IoIosHeartEmpty className="text-gray-500 text-2xl cursor-pointer" />
       )}
     </button>
   );
