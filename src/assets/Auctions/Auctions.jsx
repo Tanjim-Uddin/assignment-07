@@ -49,18 +49,18 @@ const Auctions = ({ handleFavouriteItem, addFavourite,addCurrenBid,handleremoveF
                     (addFavourite.map((item)=>
                     (<div key={item.id}  className="flex justify-between items-start gap-2 w-9/10 mx-auto border-3 rounded-2xl px-5
                     py-4 my-4">
-                        <div className="flex gap-5"><div><img src={item.image} className="w-12 h-12 border-3 rounded-2xl" alt="" /></div>
+                        <div className="flex gap-5"><div><img src={item.image} className="w-16 h-14 border-3 rounded-2xl" alt="" /></div>
                         <div className="text-lg font-medium flex flex-col gap-0.5">
                             <h1 className="text-lg">{item.description}</h1>
                             <p>${item.currentBidPrice}</p>
                             <p>{item.bidsCount}</p>
                         </div></div>
-                        <button onClick={() => {handleremoveFavouriteItem(item)}} className="hover:text-red-400 hover:bg-red-200 bg-gray-300 px-3 py-1.5 text-3xl rounded-full font-medium">X</button>
+                        <button onClick={() => {handleremoveFavouriteItem(item)}} className="hover:text-red-400 hover:bg-red-200 bg-gray-300 px-2 py-1 text-xl rounded-full font-medium">X</button>
                     </div>)))
                     
 }
                 <hr  className="border-t-2 w-9/10 mx-auto"/>
-                <div className=" px-3 py-4 flex justify-between w-9/10 mx-auto mt-4 font-medium text-2xl mb-5"><h2>Total bids Amount:</h2>
+                <div className=" px-3 py-4 flex justify-between w-9/10 mx-auto mt-4 font-medium text-xl mb-5"><h2>Total bids Amount:</h2>
                 <h2>${addCurrenBid}</h2></div>
            
             </div>
